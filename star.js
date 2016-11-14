@@ -14,6 +14,7 @@ for (var i = 0; i < gh.length -1; i++) {
     , 'danmademe/express-vue'
     , 'Vuedo/vuedo'
     , 'znck/vue-plugin-simple'
+    , 'sindresorhus/awesome'
   ]
   var skip = -1
   for (var j=0; j<skiplist.length; j++) {
