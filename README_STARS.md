@@ -642,7 +642,7 @@
   - [Flox](https://github.com/devfake/flox) <sub><sub>![](https://img.shields.io/github/stars/devfake/flox.svg?label=%E2%98%85)</sub></sub>  Self Hosted Movies Watch List
   - [ابیات ناب پارسی](http://naaab.ir) <sup>[[Source]](https://github.com/mahmoudmy/naaab) <sub><sub>![](https://img.shields.io/github/stars/mahmoudmy/naaab.svg?label=%E2%98%85)</sub></sub> </sup>
   - [JavaScript Guessing Game](https://javascript-game.firebaseapp.com/) A game for identifying JavaScript tools and libraries.
-  - [vue-ghpages-blog](https://github.com/viko16/vue-ghpages-blog) ✏️ A blog based on GitHub pages by Vue.js 2 + Webpack 2.
+  - [vue-ghpages-blog](https://github.com/viko16/vue-ghpages-blog) ✏️ A blog based on GitHub pages by Vue.js 2 + Webpack 2.
   - [**Vuedo** ![Vuedo](https://img.shields.io/github/stars/Vuedo/vuedo.svg?label=%E2%98%85)](https://github.com/Vuedo/vuedo): Vuedo is a blog platform, built with Laravel and Vue.js. **Website using Vuedo in production : https://vuejsfeed.com/**
 
 - #### Commercial Products
