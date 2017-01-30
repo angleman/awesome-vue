@@ -2,10 +2,12 @@ const IMG_HEAD = ' <sub><sub>![](https://img.shields.io/github/stars/'
 const IMG_TAIL = '.svg?label=%E2%98%85)</sub></sub> '
 var fs = require('fs')
 var md = fs.readFileSync('./README.md', 'utf8')
+console.log('md', md.length)
 var gh = md.split('?style=social&label=Star&maxAge=2592000').join('?label=%E2%98%85') // standardize star labels
 md = gh.split('] (https://github.com/').join('](https://github.com/') // typos
 md = md.replace('github.com/lian-yue/vue-upload-component/)', 'github.com/lian-yue/vue-upload-component)')
 gh = md.split('](https://github.com/')
+console.log('gh', gh.length)
 for (var i = 0; i < gh.length -1; i++) {
   var line = gh[i+1]
   var p = line.indexOf(')')
@@ -60,3 +62,4 @@ for (i = 0; i < repos.length; i++) {
 }
 
 fs.writeFileSync('README_STARS.md', md, 'utf8')
+console.log('done')
